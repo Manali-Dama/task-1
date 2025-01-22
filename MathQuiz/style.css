@@ -1,0 +1,63 @@
+/* #test-form {
+    display: none;
+} */
+html{
+    background-color: rgb(18, 95, 146);
+    color: #f1eeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body{
+    width: 90%;
+    border-style: double; 
+    background-color: azure;
+    color: black;
+    vertical-align: middle;
+    align-items: center;
+   padding-bottom: 10px;  
+}
+
+h2{
+    text-align: center;
+}
+
+#btn{
+    background-color: cornflowerblue;
+    height: fit-content;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.test-section{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.option-buttons{
+    width: auto;
+    height: 60px;
+
+}
+
+.submitbtn{ 
+    display: flex;
+    justify-content: right;
+}
+
+@media only screen and (min-width: 1024px) 
+{
+body{
+    width: 40%;
+}
+}
